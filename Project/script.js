@@ -1,0 +1,87 @@
+$('.PinkShoes').click(function(){
+    $('.PinkShoes').css('color','#fff');
+    $('.AnnaField').css('color','#5f5f5f');
+    $('.Prada').css('color','#5f5f5f');
+    $('.Casadei').css('color','#5f5f5f');
+    $('.MellowYellow').css('color','#5f5f5f');
+    $('.item-images1').css('display','block').css('display','flex');
+    $('.item-images2').css('display','none');
+    $('.item-images3').css('display','none');
+    $('.item-images4').css('display','none');
+    $('.item-images5').css('display','none');
+    $('.slider1').css('visibility','visible');
+    $('.slider2').css('visibility','hidden');
+    $('.slider3').css('visibility','hidden');
+    $('.slider4').css('visibility','hidden');
+    $('.slider5').css('visibility','hidden');
+});
+    
+$('.AnnaField').click(function(){
+    $('.PinkShoes').css('color','#5f5f5f');
+    $('.AnnaField').css('color','#ffffff');
+    $('.Prada').css('color','#5f5f5f');
+    $('.Casadei').css('color','#5f5f5f');
+    $('.MellowYellow').css('color','#5f5f5f');
+    $('.item-images1').css('display','none');
+    $('.item-images2').css('display','block').css('display','flex');
+    $('.item-images3').css('display','none');
+    $('.item-images4').css('display','none');
+    $('.item-images5').css('display','none');
+    $('.slider1').css('visibility','hidden');
+    $('.slider2').css('visibility','visible');
+    $('.slider3').css('visibility','hidden');
+    $('.slider4').css('visibility','hidden');
+    $('.slider5').css('visibility','hidden');
+});
+
+$('.Prada').click(function(){
+    $('.PinkShoes').css('color','#5f5f5f');
+    $('.AnnaField').css('color','#5f5f5f');
+    $('.Prada').css('color','#fff');
+    $('.Casadei').css('color','#5f5f5f');
+    $('.MellowYellow').css('color','#5f5f5f');
+    $('.item-images1').css('display','none');
+    $('.item-images2').css('display','none');
+    $('.item-images3').css('display','block').css('display','flex');
+    $('.item-images4').css('display','none');
+    $('.item-images5').css('display','none');
+    $('.slider1').css('visibility','hidden');
+    $('.slider2').css('visibility','hidden');
+    $('.slider3').css('visibility','visible');
+    $('.slider4').css('visibility','hidden');
+    $('.slider5').css('visibility','hidden');
+});
+$('.Casadei').click(function(){
+    $('.PinkShoes').css('color','#5f5f5f');
+    $('.AnnaField').css('color','#5f5f5f');
+    $('.Prada').css('color','#5f5f5f');
+    $('.Casadei').css('color','#fff');
+    $('.MellowYellow').css('color','#5f5f5f');
+    $('.item-images1').css('display','none');
+    $('.item-images2').css('display','none');
+    $('.item-images3').css('display','none');
+    $('.item-images4').css('display','block').css('display','flex');
+    $('.item-images5').css('display','none');
+    $('.slider1').css('visibility','hidden');
+    $('.slider2').css('visibility','hidden');
+    $('.slider3').css('visibility','hidden');
+    $('.slider4').css('visibility','visible');
+    $('.slider5').css('visibility','hidden');
+});
+$('.MellowYellow').click(function(){
+    $('.PinkShoes').css('color','#5f5f5f');
+    $('.AnnaField').css('color','#5f5f5f');
+    $('.Prada').css('color','#5f5f5f');
+    $('.Casadei').css('color','#5f5f5f');
+    $('.MellowYellow').css('color','#fff');
+    $('.item-images1').css('display','none');
+    $('.item-images2').css('display','none');
+    $('.item-images3').css('display','none');
+    $('.item-images4').css('display','none');
+    $('.item-images5').css('display','block').css('display','flex');
+    $('.slider1').css('visibility','hidden');
+    $('.slider2').css('visibility','hidden');
+    $('.slider3').css('visibility','hidden');
+    $('.slider4').css('visibility','hidden');
+    $('.slider5').css('visibility','visible');
+});
